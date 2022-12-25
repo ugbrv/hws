@@ -14,7 +14,7 @@ namespace ConsoleApp1
             double a = double.Parse(Console.ReadLine());
             Console.WriteLine("Введите 2-й катет: ");
             double b = double.Parse(Console.ReadLine());
-            double S = (a + b) / 2;
+            double S = (a * b) / 2;
             double c = Math.Sqrt((a * a) + (b * b));
             double P = (a + b + c);
             Console.WriteLine("Площадь равна = " + S);
