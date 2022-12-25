@@ -10,7 +10,7 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Введите 1 катет: ");
+            Console.WriteLine("Введите 1-й катет: ");
             double a = int.Parse(Console.ReadLine());
             Console.WriteLine("Введите 2 катет: ");
             double b = int.Parse(Console.ReadLine());
